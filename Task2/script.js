@@ -2,7 +2,7 @@ let randomNumber, attempts;
 
 function startNewGame() {
     // Initialize a new game
-    randomNumber = 5//Math.floor(Math.random() * 100) + 1;
+    randomNumber = Math.floor(Math.random() * 100) + 1;
     attempts = 0;
     document.getElementById('attempts').textContent = 'Attempts: 0';
     document.getElementById('message').textContent = 'New Game ';
