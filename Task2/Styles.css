@@ -1,0 +1,80 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: #0f0f0f;
+    color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    background-color: #232D3F;
+    color: white;
+    padding: 10px;
+    margin: 0;
+}
+
+.container {
+    position: relative;
+    top: 25vh;
+    background-color: #232D3F;
+    border: 1px solid #005B41;
+    border-radius: 10px;
+    padding: 40px;
+    width: 300px;
+    margin: 20px auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input, button {
+    padding: 10px;
+    border: 2px solid #bbb;
+    border-radius: 5px;
+    width: 100%;
+    
+    margin: 10px 0;
+    font-size: 16px;
+    border-style: none none solid none;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s; /* Adding transitions for color changes */
+}
+input{
+    color: #fff;
+    border-radius: 0%;
+    background-color: #232D3F;
+}
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+  }
+  
+button{
+    background-color: #005B41;
+    color: #bbb;
+}
+input:hover, input:focus,input:active {
+    
+    border-style: none none solid none;   
+    
+}
+button:hover {
+    background-color: #008170;
+    color: white;
+}
+
+button:active {
+    background-color: #008170; /* Color change when the button is clicked */
+    color: white;
+    transition: none; /* Disable transition during the click animation */
+}
+
+#message {
+    font-weight: bold;
+    margin-top: 10px;
+    
+    
+}
+
+#attempts {
+    font-weight: bold;
+    color: #c5c5c5;
+    margin-top: 10px;
+}
